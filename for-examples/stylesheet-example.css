@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #111;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* 固定表示セクション */
+  .pinned-section {
+    position: relative;
+    height: 300vh; /* スクロール余白を作る */
+  }
+  
+  /* コンテンツを画面中央に固定 */
+  .content {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, #222 0%, #000 100%);
+  }
+  
+  .console {
+    width: 400px;
+    transition: transform 0.3s ease-out;
+  }
+  
+  /* 通常セクション */
+  .normal-section {
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
