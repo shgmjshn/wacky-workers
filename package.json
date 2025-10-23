@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ZAPPAGREAT/wacky-workers/issues"
   },
-  "homepage": "https://github.com/ZAPPAGREAT/wacky-workers#readme"
+  "homepage": "https://github.com/ZAPPAGREAT/wacky-workers#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.2.0"
+  }
 }
