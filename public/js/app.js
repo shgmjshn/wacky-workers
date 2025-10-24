@@ -31,7 +31,7 @@ function updateScrollEffect() {
     memberSections.forEach(sectionId => {
         const section = document.querySelector(sectionId);
         const image = document.querySelector(`${sectionId} .console`);
-        const infoFrame = document.querySelector(`${sectionId} .info-frame`);
+        const infoFrame = document.querySelector(`${sectionId} .info-image`) || document.querySelector(`${sectionId} .info-frame`);
         const memberName = document.querySelector(`${sectionId} .member-name`);
         const memberDescription = document.querySelector(`${sectionId} .member-description`);
         
